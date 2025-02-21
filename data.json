@@ -1,8 +1,8 @@
 {
-  "NextRealm":       ["ABC", false, 8 ],
-  "Worm":            ["DEF", false, 13],
-  "Poseidon":        ["GHI", false, 9 ],
-  "NIDS":            ["JKL", false, 13],
-  "Master Schedule": ["MNO", false, 2 ],
-  "Utilpage":        ["PQR", false, 9 ]
+  "NextRealm":       ["ABC", false],
+  "Worm":            ["DEF", false],
+  "Poseidon":        ["GHI", false],
+  "NIDS":            ["JKL", false],
+  "Master Schedule": ["MNO", false],
+  "Utilpage":        ["PQR", false]
 }
