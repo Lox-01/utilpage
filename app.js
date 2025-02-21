@@ -3,8 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
         .then(response => response.json())
         .then(data => {
             for (const [name, message] of Object.entries(data)) {
-                console.log(name);
-                console.log(message);
+                document.querySelector("div.box").innerHTML += `<div class="repoEntry"><div class="repoName">${name}</div><div class="repoMessage">${message}</div></div>`
             }
         })
         .catch(error => {
