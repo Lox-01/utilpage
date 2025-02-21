@@ -1,8 +1,8 @@
 {
-  "NextRealm":"",
-  "Worm":"",
-  "Poseidon":"",
-  "NIDS":"",
-  "Master Schedule":"",
-  "Utilpage":""
+  "NextRealm":       ["", false],
+  "Worm":            ["", false],
+  "Poseidon":        ["", false],
+  "NIDS":            ["", false],
+  "Master Schedule": ["", false],
+  "Utilpage":        ["", false]
 }
