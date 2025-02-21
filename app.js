@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         .then(response => response.json())
         .then(data => {
             for (const [name, message] of Object.entries(data)) {
-                document.querySelector("div.box").innerHTML += `<div class="repoEntry"><div class="repoName">${name}${nbsp(message[2])}</div><div class="repoMessage">${message[0]}</div></div>`
+                document.querySelector("div.box").innerHTML += `<div class="repoEntry"><div class="repoName">${name}${nbsp(17-name.length)}</div><div class="repoMessage">${message[0]}</div></div>`
             }
         })
         .catch(error => {
