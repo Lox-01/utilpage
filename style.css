@@ -1,23 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: 'Courier New', Courier, monospace;
-    padding: 20px;
+    font-family: 'Courier New', monospace;
     background-color: #000000;
     color: #00ff00;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    overflow: hidden;
 }
 
 h1 {
-    font-size: 2.5rem;
+    text-align: center;
     color: #00ff00;
+    font-size: 2rem;
+    margin-top: 20px;
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
 }
 
-p {
-    font-size: 1.2rem;
-    color: #aaaaaa;
+.box {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+    padding: 20px;
+    background-color: #000000;
+    border: 2px solid #00ff00;
+    overflow-y: auto;
+    color: #00ff00;
+    font-size: 1.1rem;
 }
 
-.selfcontained {
-    border-style: solid;
-    border-width: 5px;
-    border-color: #00ff00;
+.repoName {
+    font-family: 'Courier New', monospace;
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
+    font-size: 20px;
+    color: #ff0000;
+    font-weight: bold;
+    padding: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.repoMessage {
+    font-family: 'Courier New', monospace;
+    text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff, 0 0 30px #00bfff;
+    font-size: 20px;
+    color: #00ffff;
+    font-weight: bold;
+    padding: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.repoEntry {
+    display: flex;
+    flex-direction: row;
 }
